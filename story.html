@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<title>故事線</title>
+<title>story</title>
 <style title="Twine CSS">@keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@keyframes rumble{25%{top:-0.1em}75%{top:0.1em}0%,to{top:0px}}@keyframes shudder{25%{left:0.1em}75%{left:-0.1em}0%,to{left:0px}}@keyframes buoy{25%{top:0.25em}75%{top:-0.25em}0%,to{top:0px}}@keyframes sway{25%{left:0.25em}75%{left:-0.25em}0%,to{left:0px}}@keyframes pulse{0%{transform:scale(0, 0)}20%{transform:scale(1.2, 1.2)}40%{transform:scale(0.9, 0.9)}60%{transform:scale(1.05, 1.05)}80%{transform:scale(0.925, 0.925)}to{transform:scale(1, 1)}}@keyframes zoom-in{0%{transform:scale(0, 0)}to{transform:scale(1, 1)}}@keyframes shudder-in{0%, to{transform:translateX(0em)}5%, 25%, 45%{transform:translateX(-1em)}15%, 35%, 55%{transform:translateX(1em)}65%{transform:translateX(-0.6em)}75%{transform:translateX(0.6em)}85%{transform:translateX(-0.2em)}95%{transform:translateX(0.2em)}}@keyframes rumble-in{0%, to{transform:translateY(0em)}5%, 25%, 45%{transform:translateY(-1em)}15%, 35%, 55%{transform:translateY(1em)}65%{transform:translateY(-0.6em)}75%{transform:translateY(0.6em)}85%{transform:translateY(-0.2em)}95%{transform:translateY(0.2em)}}@keyframes fidget{0%, 8.1%, 82.1%, 31.1%, 38.1%, 44.1%, 40.1%, 47.1%, 74.1%, 16.1%, 27.1%, 72.1%, 24.1%, 95.1%, 6.1%, 36.1%, 20.1%, 4.1%, 91.1%, 14.1%, 87.1%, to{left:0px;top:0px}8%, 82%, 31%, 38%, 44%{left:-1px}40%, 47%, 74%, 16%, 27%{left:1px}72%, 24%, 95%, 6%, 36%{top:-1px}20%, 4%, 91%, 14%, 87%{top:1px}}@keyframes slide-right{0%{transform:translateX(-100vw)}}@keyframes slide-left{0%{transform:translateX(100vw)}}@keyframes slide-up{0%{transform:translateY(100vh)}}@keyframes slide-down{0%{transform:translateY(-100vh)}}@keyframes fade-right{0%{opacity:0;transform:translateX(-1em)}to{opacity:1}}@keyframes fade-left{0%{opacity:0;transform:translateX(1em)}to{opacity:1}}@keyframes fade-up{0%{opacity:0;transform:translateY(1em)}to{opacity:1}}@keyframes fade-down{0%{opacity:0;transform:translateY(-1em)}to{opacity:1}}@keyframes flicker{0%,29%,31%,63%,65%,77%,79%,86%,88%,91%,93%{opacity:0}30%{opacity:0.2}64%{opacity:0.4}78%{opacity:0.6}87%{opacity:0.8}92%, to{opacity:1}}@keyframes blur{0%{filter:blur(2rem);opacity:0}25%{opacity:1}to{filter:blur(0rem);opacity:1}}.dom-debug-mode tw-story,.dom-debug-mode tw-passage,.dom-debug-mode tw-sidebar,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{outline:1px solid #f5a3da;min-height:32px;display:block !important}.dom-debug-mode tw-story::before,.dom-debug-mode tw-passage::before,.dom-debug-mode tw-sidebar::before,.dom-debug-mode tw-include::before,.dom-debug-mode tw-hook::before,.dom-debug-mode tw-expression::before,.dom-debug-mode tw-link::before,.dom-debug-mode tw-dialog::before,.dom-debug-mode tw-columns::before,.dom-debug-mode tw-column::before,.dom-debug-mode tw-align::before{position:absolute;top:0;left:0;height:16px;background-color:#f5a3da;color:black;font-size:16px;font-weight:normal;font-style:normal;font-family:monospace;display:inline-block;line-height:100%;white-space:pre;z-index:999997}.dom-debug-mode tw-story:hover,.dom-debug-mode tw-passage:hover,.dom-debug-mode tw-sidebar:hover,.dom-debug-mode tw-include:hover,.dom-debug-mode tw-hook:hover,.dom-debug-mode tw-expression:hover,.dom-debug-mode tw-link:hover,.dom-debug-mode tw-dialog:hover,.dom-debug-mode tw-columns:hover,.dom-debug-mode tw-column:hover,.dom-debug-mode tw-align:hover{outline:1px solid #fc9}.dom-debug-mode tw-story:hover::before,.dom-debug-mode tw-passage:hover::before,.dom-debug-mode tw-sidebar:hover::before,.dom-debug-mode tw-include:hover::before,.dom-debug-mode tw-hook:hover::before,.dom-debug-mode tw-expression:hover::before,.dom-debug-mode tw-link:hover::before,.dom-debug-mode tw-dialog:hover::before,.dom-debug-mode tw-columns:hover::before,.dom-debug-mode tw-column:hover::before,.dom-debug-mode tw-align:hover::before{background-color:#fc9;transition:background-color 1s}.dom-debug-mode tw-passage,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{padding:1em;margin:0}.dom-debug-mode tw-story::before{content:'<tw-story tags="' attr(tags) '">'}.dom-debug-mode tw-passage::before{top:-16px;content:'<tw-passage tags="' attr(tags) '">'}.dom-debug-mode tw-sidebar::before{top:-16px;content:"<tw-sidebar>"}.dom-debug-mode tw-hook::before{content:'<tw-hook name="' attr(name) '">'}.dom-debug-mode tw-expression::before{content:'<tw-expression name="' attr(name) '">'}.dom-debug-mode tw-link::before{content:'<tw-link name="' attr(name) '">'}.dom-debug-mode tw-dialog::before{content:"<tw-dialog>"}.dom-debug-mode tw-columns::before{content:"<tw-columns>"}.dom-debug-mode tw-column::before{content:"<tw-column>"}.dom-debug-mode tw-align::before{content:"<tw-align>"}.dom-debug-mode tw-include::before{content:'<tw-include type="' attr(type) '" name="' attr(name) '">'}.debug-mode tw-expression{display:inline-block !important}.debug-mode tw-expression[type=variable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"$" attr(name)}.debug-mode tw-expression[type=tempVariable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"_" attr(name)}.debug-mode tw-expression[return=boolean]{background-color:rgba(179,179,179,0.2)}.debug-mode tw-expression[return=array]{background-color:rgba(255,102,102,0.2)}.debug-mode tw-expression[return=dataset]{background-color:rgba(255,128,0,0.2)}.debug-mode tw-expression[return=number]{background-color:rgba(255,179,102,0.2)}.debug-mode tw-expression[return=datamap]{background-color:rgba(255,255,102,0.2)}.debug-mode tw-expression[return=changer]{background-color:rgba(179,255,102,0.2)}.debug-mode tw-expression[return=lambda]{background-color:rgba(102,255,102,0.2)}.debug-mode tw-expression[return=hookname]{background-color:rgba(102,255,204,0.2)}.debug-mode tw-expression[return=string]{background-color:rgba(102,255,255,0.2)}.debug-mode tw-expression[return=datatype]{background-color:rgba(102,153,255,0.2)}.debug-mode tw-expression[return=gradient],.debug-mode tw-expression[return=colour]{background-color:rgba(204,102,255,0.2)}.debug-mode tw-expression[return=instant],.debug-mode tw-expression[return=macro]{background-color:rgba(240,117,199,0.2)}.debug-mode tw-expression[return=command]{background-color:rgba(153,153,255,0.2)}.debug-mode tw-expression.false{background-color:rgba(255,0,0,0.2) !important}.debug-mode tw-expression[type=macro]::before{content:"(" attr(name) ":)";padding:0 0.5rem;font-size:1rem;vertical-align:middle;line-height:normal;background-color:inherit;border:1px solid rgba(255,255,255,0.5)}.debug-mode tw-hook{background-color:rgba(0,85,255,0.1) !important}.debug-mode tw-hook::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"["}.debug-mode tw-hook::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]"}.debug-mode tw-hook[name]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]<" attr(name) "|"}.debug-mode tw-pseudo-hook{background-color:rgba(255,170,0,0.1) !important}.debug-mode tw-collapsed::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"{"}.debug-mode tw-collapsed::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"}"}.debug-mode tw-verbatim::before,.debug-mode tw-verbatim::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"`"}.debug-mode tw-align[style*="text-align: center"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 50%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: left"]{background:linear-gradient(to right, rgba(255,204,189,0.25) 0%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: right"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 100%)}.debug-mode tw-column{background-color:rgba(189,228,255,0.2)}.debug-mode tw-enchantment{animation:enchantment 0.5s infinite;border:1px solid}.debug-mode tw-link::after,.debug-mode tw-broken-link::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(passage-name)}.debug-mode tw-include{background-color:rgba(204,128,51,0.1)}.debug-mode tw-include::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(type) ' "' attr(name) '"'}@keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}tw-debugger{position:fixed;box-sizing:border-box;bottom:0;right:0;z-index:999999;min-width:10em;min-height:1em;padding:0em 0.5em 0.5em 1em;font-size:1.25em;font-family:sans-serif;color:#000;border-left:solid #000 2px;border-top:solid #000 2px;border-top-left-radius:.5em;background:#fff;opacity:1}tw-debugger select{margin-right:1em;width:12em}tw-debugger button{border-radius:3px;border:solid #999 1px;margin:auto 4px;background-color:#fff;font-size:inherit;color:#000}tw-debugger button.enabled{background-color:#eee;box-shadow:inset #ddd 3px 5px 0.5em}tw-debugger .panel{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;position:absolute;bottom:100%;left:-2px;right:0;padding:1em;max-height:40vh;overflow-y:scroll;overflow-x:hidden;z-index:999998;background:#fff;border:inherit;border-bottom:solid #999 2px;border-top-left-radius:.5em;border-bottom-left-radius:.5em;font-size:0.8em}tw-debugger .panel:empty,tw-debugger .panel[hidden]{display:none}tw-debugger .panel-source,tw-debugger .panel-row-source{font-family:monospace;overflow-x:scroll;white-space:pre;-ms-flex-preferred-size:100%;flex-basis:100%}tw-debugger .panel-row-source{margin:5px 0}tw-debugger .panel-rows{width:100%;overflow-x:scroll}tw-debugger .panel-rows>*{display:table-row}tw-debugger .panel-rows>div:nth-of-type(2n){background:#EEE}tw-debugger .panel-row-buttons{text-align:right}tw-debugger .panel-variables .panel-rows:empty::before{content:"~ No variables ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-enchantments .panel-rows:empty::before{content:"~ No enchantments ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-errors .panel-rows:empty::before{content:"~ No errors... for now. ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-rows:empty+.panel-variables-bottom{display:none}tw-debugger .panel-storylets:not(.panel-exclusive) .storylet-exclusive,tw-debugger .panel-storylets:not(.panel-urgent) .storylet-urgent{display:none}tw-debugger .panel-variables-bottom{padding-top:5px}tw-debugger .enchantment-row{min-height:1.5em}tw-debugger .variable-path{opacity:0.4}tw-debugger .temporary-variable-scope,tw-debugger .enchantment-local{font-family:sans-serif;font-weight:normal;opacity:0.8;font-size:0.75em}tw-debugger .temporary-variable-scope:not(:empty)::before,tw-debugger .enchantment-local:not(:empty)::before{content:" in "}tw-debugger .variable-name,tw-debugger .enchantment-name{font-family:monospace;font-weight:bold}tw-debugger .variable-type{color:#444;font-weight:normal;text-overflow:ellipsis;overflow:hidden;max-width:10em}tw-debugger .error-row{display:table-row;background-color:rgba(230,101,204,0.3)}tw-debugger .error-row:nth-of-type(2n){background-color:rgba(237,145,219,0.3)}tw-debugger .error-row>*{display:table-cell;padding:0.25em 0.5em}tw-debugger .error-row .error-message{cursor:help}tw-debugger .error-row .error-passage{color:#444}tw-debugger .storylet-row{background-color:rgba(201,233,222,0.3)}tw-debugger .storylet-row:nth-child(2n){background-color:rgba(128,203,178,0.3)}tw-debugger .storylet-row.storylet-closed{font-style:italic;opacity:0.4;background-color:rgba(217,217,217,0.3)}tw-debugger .storylet-row.storylet-closed:nth-child(2n){background-color:rgba(166,166,166,0.3)}.storylet-error tw-debugger .storylet-row{background-color:rgba(230,101,204,0.3)}.storylet-error tw-debugger .storylet-row:nth-child(2n){background-color:rgba(237,145,219,0.3)}tw-debugger .storylet-row .storylet-name,tw-debugger .storylet-row .storylet-value{display:inline-block;width:50%}tw-debugger .tabs{padding-bottom:0.5em}tw-debugger .tab{border-radius:0px 0px 0.5em 0.5em;border-top:none}tw-debugger .resizer{position:absolute;height:3em;border-left:2px solid #ccc;border-right:2px solid #ccc;top:10px;left:4px;width:8px;cursor:ew-resize}tw-dialog{z-index:999997;border:#fff solid 2px;padding:2em;color:#fff;background-color:#000;display:block}@media (min-width: 576px){tw-dialog{max-width:50vw}}tw-dialog input[type=text]{font-size:inherit;width:100%}tw-dialog-links{text-align:right;display:-ms-flexbox;display:flex;-ms-flex-pack:end;justify-content:flex-end}tw-backdrop{z-index:999996;position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.8);display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}tw-backdrop ~ tw-backdrop{display:none}tw-link,.link,tw-icon,.enchantment-clickblock{cursor:pointer}tw-link,.enchantment-link{color:#4169E1;font-weight:bold;text-decoration:none;transition:color 0.2s ease-in-out}tw-passage [style^="color"] tw-link:not(:hover),tw-passage [style*=" color"] tw-link:not(:hover),tw-passage [style^="color"][hover="true"] tw-link:hover,tw-passage [style*=" color"][hover="true"] tw-link:hover,tw-passage [style^="color"] .enchantment-link:not(:hover),tw-passage [style*=" color"] .enchantment-link:not(:hover),tw-passage [style^="color"][hover="true"] .enchantment-link:hover,tw-passage [style*=" color"][hover="true"] .enchantment-link:hover{color:inherit}tw-link:hover,.enchantment-link:hover{color:#00bfff}tw-link:active,.enchantment-link:active{color:#DD4B39}.visited{color:#6941e1}tw-passage [style^="color"] .visited:not(:hover),tw-passage [style*=" color"] .visited:not(:hover),tw-passage [style^="color"][hover="true"] .visited:hover,tw-passage [style*=" color"][hover="true"] .visited:hover{color:inherit}.visited:hover{color:#E3E}tw-broken-link{color:#993333;border-bottom:2px solid #993333;cursor:not-allowed}tw-passage [style^="color"] tw-broken-link:not(:hover),tw-passage [style*=" color"] tw-broken-link:not(:hover),tw-passage [style^="color"][hover="true"] tw-broken-link:hover,tw-passage [style*=" color"][hover="true"] tw-broken-link:hover{color:inherit}.enchantment-mouseover{border-bottom:2px dashed #999}.enchantment-mouseout{border:rgba(64,149,191,0.6) 1px solid}.enchantment-mouseout:hover{background-color:rgba(175,197,207,0.75);border:transparent 1px solid;border-radius:0.2em}.enchantment-clickblock{width:100%;height:100%;display:block}.enchantment-clickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;color:rgba(65,105,225,0.5);transition:color 0.2s ease-in-out}.enchantment-clickblock>:not(tw-enchantment):hover::after{color:rgba(0,191,255,0.5)}.enchantment-clickblock>:not(tw-enchantment):active::after{color:rgba(222,78,59,0.5)}.enchantment-clickblock>:not(tw-enchantment)::after{box-shadow:inset 0 0 0 0.5vmax}.enchantment-clickblock>tw-passage::after,.enchantment-clickblock>tw-sidebar::after{box-shadow:0 0 0 0.5vmax}.enchantment-mouseoverblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:2px dashed #999}.enchantment-mouseoutblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:rgba(64,149,191,0.6) 2px solid}.enchantment-mouseoutblock:hover>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;background-color:rgba(175,197,207,0.75);border:transparent 2px solid;border-radius:0.2em}tw-link.enchantment-button,.enchantment-link.enchantment-button,.enchantment-button:not(.enchantment-link) tw-link,.enchantment-button:not(.enchantment-link) .enchantment-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}tw-dialog-links{padding-top:1.5em}tw-dialog-links tw-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block;display:inline-block}html{margin:0;height:100%;overflow-x:hidden}*,:before,:after{position:relative;box-sizing:inherit}body{margin:0;height:100%}tw-storydata{display:none}tw-story{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;font:100% Georgia, serif;box-sizing:border-box;width:100%;min-height:100%;font-size:1.5em;line-height:1.5em;padding:5% 5%;overflow:hidden;background-color:#000;color:#fff}tw-story [style*=content-box] *{box-sizing:border-box}@media (min-width: 576px){tw-story{padding:5% 20%}}tw-story tw-consecutive-br{display:block;height:1.6ex;visibility:hidden}tw-story select{background-color:transparent;font:inherit;border-style:solid;padding:2px}tw-story select:not([disabled]){color:inherit}tw-story textarea{resize:none;background-color:transparent;font:inherit;color:inherit;border-style:none;padding:2px}tw-story input[type=checkbox]{transform:scale(1.5);margin:0 0.5em}tw-story tw-noscript{animation:appear 0.8s}tw-passage{display:block}tw-sidebar{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}@media (min-width: 576px){tw-sidebar{left:-5em;width:3em;position:absolute;-ms-flex-direction:column;flex-direction:column}tw-enchantment[style*="width"]>tw-sidebar{width:inherit}}tw-icon{display:inline-block;margin:0.5em 0;font-size:66px;font-family:"Verdana",sans-serif}tw-icon[alt]{opacity:0.2}tw-icon[alt]:hover{opacity:0.4}tw-icon[data-label]::after{font-weight:bold;content:attr(data-label);font-size:20px;bottom:-20px;left:-50%;white-space:nowrap}tw-meter{display:block}tw-hook:empty,tw-expression:empty{display:none}tw-error{display:inline-block;border-radius:0.2em;padding:0.2em;font-size:1rem;cursor:help;white-space:pre-wrap}tw-error.error{background-color:rgba(223,58,190,0.6);color:#fff}tw-error.warning{background-color:rgba(223,140,58,0.6);color:#fff;display:none}.debug-mode tw-error.warning{display:inline}tw-error-explanation{display:block;font-size:0.8rem;line-height:1rem}tw-open-button,tw-folddown{cursor:pointer;line-height:0em;border-radius:1px;border:1px solid black;font-size:0.8rem;margin:0 0.4rem;padding:2px;white-space:pre}tw-folddown::after{content:"\25b6"}tw-folddown.open::after{content:"\25bc"}tw-open-button::after{content:"Open"}tw-notifier{border-radius:0.2em;padding:0.2em;font-size:1rem;background-color:rgba(223,182,58,0.4);display:none}.debug-mode tw-notifier{display:inline}tw-notifier::before{content:attr(message)}tw-colour{border:1px solid black;display:inline-block;width:1em;height:1em}tw-enchantment:empty{display:none}h1{font-size:3em}h2{font-size:2.25em}h3{font-size:1.75em}h1,h2,h3,h4,h5,h6{line-height:1em;margin:0.3em 0 0.6em 0}pre{font-size:1rem;line-height:initial}small{font-size:70%}big{font-size:120%}mark{color:rgba(0,0,0,0.6);background-color:#ff9}ins{color:rgba(0,0,0,0.6);background-color:rgba(255,242,204,0.5);border-radius:0.5em;box-shadow:0em 0em 0.2em #ffe699;text-decoration:none}center{text-align:center;margin:0 auto;width:60%}blink{text-decoration:none;animation:fade-in-out 1s steps(1, end) infinite alternate}tw-align{display:block}tw-columns{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.transition-in{animation:appear 0ms step-start}.transition-out{animation:appear 0ms step-end}[data-t8n^=dissolve].transition-in,[data-t8n=fade].transition-in{animation:appear .8s}[data-t8n^=dissolve].transition-out,[data-t8n=fade].transition-out{animation:appear .8s reverse}[data-t8n^=shudder].transition-in{display:inline-block !important;animation:shudder-in .8s}[data-t8n^=shudder].transition-out{display:inline-block !important;animation:shudder-in .8s reverse}[data-t8n^=rumble].transition-in{display:inline-block !important;animation:rumble-in .8s}[data-t8n^=rumble].transition-out{display:inline-block !important;animation:rumble-in .8s reverse}[data-t8n^=pulse].transition-in{animation:pulse .8s;display:inline-block !important}[data-t8n^=pulse].transition-out{animation:pulse .8s reverse;display:inline-block !important}[data-t8n^=zoom].transition-in{animation:zoom-in .8s;display:inline-block !important}[data-t8n^=zoom].transition-out{animation:zoom-in .8s reverse;display:inline-block !important}[data-t8n^=blur].transition-in{animation:blur .8s;display:inline-block !important}[data-t8n^=blur].transition-out{animation:blur .8s reverse;display:inline-block !important}[data-t8n^=slideleft].transition-in{animation:slide-left .8s;display:inline-block !important}[data-t8n^=slideleft].transition-out{animation:slide-right .8s reverse;display:inline-block !important}[data-t8n^=slideright].transition-in{animation:slide-right .8s;display:inline-block !important}[data-t8n^=slideright].transition-out{animation:slide-left .8s reverse;display:inline-block !important}[data-t8n^=slideup].transition-in{animation:slide-up .8s;display:inline-block !important}[data-t8n^=slideup].transition-out{animation:slide-down .8s reverse;display:inline-block !important}[data-t8n^=slidedown].transition-in{animation:slide-down .8s;display:inline-block !important}[data-t8n^=slidedown].transition-out{animation:slide-up .8s reverse;display:inline-block !important}[data-t8n^=fadeleft].transition-in{animation:fade-left .8s;display:inline-block !important}[data-t8n^=fadeleft].transition-out{animation:fade-right .8s reverse;display:inline-block !important}[data-t8n^=faderight].transition-in{animation:fade-right .8s;display:inline-block !important}[data-t8n^=faderight].transition-out{animation:fade-left .8s reverse;display:inline-block !important}[data-t8n^=fadeup].transition-in{animation:fade-up .8s;display:inline-block !important}[data-t8n^=fadeup].transition-out{animation:fade-down .8s reverse;display:inline-block !important}[data-t8n^=fadedown].transition-in{animation:fade-down .8s;display:inline-block !important}[data-t8n^=fadedown].transition-out{animation:fade-up .8s reverse;display:inline-block !important}[data-t8n^=flicker].transition-in{animation:flicker .8s}[data-t8n^=flicker].transition-out{animation:flicker .8s reverse}
 </style>
 </head>
 <body>
-<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play 故事線.</tw-noscript></noscript></tw-story>
-<tw-storydata name="故事線" startnode="1" creator="Twine" creator-version="2.3.16" ifid="24392B50-0A56-4EBC-BE4A-562FB0937C0E" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="END" color="green"></tw-tag>,<tw-tag name="上學" color="blue"></tw-tag>,<tw-tag name="Branch" color="red"></tw-tag>,<tw-tag name="THANKS" color="purple"></tw-tag>,<tw-tag name="BONUS" color="blue"></tw-tag>,<tw-tag name="autobranch" color="yellow"></tw-tag><tw-passagedata pid="1" name="開頭0" tags="開頭" position="601,50" size="100,100">(align:&quot;&lt;==&quot;)+(box:&quot;==XXXXXXXXXX==&quot;)[(text-colour:#ffec99)[(text-style:&quot;smear&quot;)[###[[SPLITS(點擊進入遊戲劇情)-&gt;開頭1]]]]]
+<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play story.</tw-noscript></noscript></tw-story>
+<tw-storydata name="story" startnode="1" creator="Twine" creator-version="2.3.16" ifid="24392B50-0A56-4EBC-BE4A-562FB0937C0E" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="END" color="green"></tw-tag>,<tw-tag name="上學" color="blue"></tw-tag>,<tw-tag name="Branch" color="red"></tw-tag>,<tw-tag name="THANKS" color="purple"></tw-tag>,<tw-tag name="BONUS" color="blue"></tw-tag>,<tw-tag name="autobranch" color="yellow"></tw-tag><tw-passagedata pid="1" name="開頭0" tags="開頭" position="601,50" size="100,100">(align:&quot;&lt;==&quot;)+(box:&quot;==XXXXXXXXXX==&quot;)[(text-colour:#ffec99)[(text-style:&quot;smear&quot;)[###[[SPLITS(點擊進入遊戲劇情)-&gt;開頭1]]]]]
 (align:&quot;&lt;==&quot;)+(box:&quot;====XXXX====&quot;)[作者:林宣瑩、林嘉紜]
 (align:&quot;&lt;==&quot;)+(box:&quot;==XXXXXXXXXXXXXXXXXXXX===&quot;)[&lt;img src=&quot;https://raw.githubusercontent.com/oSaltedFisho/WIBN_2_2/main/picture/20220601_no_noise.jpg&quot; width=&quot;600&quot;&gt;]</tw-passagedata><tw-passagedata pid="2" name="開頭2" tags="開頭" position="600,312" size="100,100">「我…我只是想看看自己出生前的紀錄和證明…」羅寒岳的頭越來越低。
 (text-colour:#868e96)[『我只是想證明自己是在期待下出生的，也想看你是否還留著，希望你是愛我的…』]
@@ -35,7 +35,7 @@
 [[我還沒能把跟您的心結打開」-&gt;暴力]]
 
 語畢，羅寒岳再次陷入昏迷。</tw-passagedata><tw-passagedata pid="5" name="理性" tags="" position="501,700" size="100,100">(set: $personality to &quot;永儒&quot;)
-羅寒岳再次醒來，看著身旁的父親屍體，再望向滿是鮮血的雙手，自言自語道「又來了」，皺著眉頭思考著接下來要如何處理屍體。
+羅寒岳再次醒來，看著身旁的父親屍體，再望向滿是鮮血的雙手，自言自語道「怎麼會搞成這樣？」，皺著眉頭思考著接下來要如何處理屍體。
 
 「這個年紀被報案可以減輕刑事責任，或是揭露自己有這個病就能無罪…」
 「還是要偷偷扔到野外呢？這樣連犯案紀錄都不會有，但是我沒辦法獨自運送屍體到那麼遠的地方…」
@@ -46,19 +46,19 @@
 
 
 [[繼續-&gt;收留(理性)1]]</tw-passagedata><tw-passagedata pid="6" name="暴力" tags="" position="700,701" size="100,100">(set: $personality to &quot;焱&quot;)
-羅寒岳再次醒來，看著身旁的父親屍體，像是習以為常般說道「擱來啊…煩死」，雖然語氣厭煩但因為擔心放太久家裡會飄出屍體的惡臭味，且自己是在現場的唯一嫌疑人，必須快點處理掉屍體。
+羅寒岳再次醒來，看著身旁的父親屍體，有些吃驚地說道「擱來啊…哪會舞加按呢？！」，雖然有些困惑，但因為擔心放太久家裡會飄出屍體的惡臭味，且自己是在現場的唯一嫌疑人，必須快點處理掉屍體。
 找到家裡的大麻布袋及黑色大垃圾袋，羅寒岳開始將屍體拖起身，並同時把黑色大垃圾袋先由頭部套入，完整裝入後再綑綁起來，並放入大麻布袋。
 接著，羅寒岳清理手上的血跡並換件衣服，拖著大麻布袋像是拖著大型垃圾一樣，一如往常地出門，並將麻布袋丟入社區的垃圾集中區一般垃圾。
 但他萬萬沒有想到的是，屍體在垃圾集中區飄出了極濃的腐爛味道，所以社區管理員決定將一個個垃圾打開看是誰沒有按照垃圾分類，因此事跡曝光，管理員報警，羅寒岳被帶往派出所詢問。
 
 
-[[繼續-&gt;收留(暴力)]]</tw-passagedata><tw-passagedata pid="7" name="收留(理性)1" tags="Branch" position="500,829" size="100,100">(text-colour:#a5d8ff)[-警局內-]
+[[繼續-&gt;收留(暴力)]]</tw-passagedata><tw-passagedata pid="7" name="收留(理性)1" tags="" position="500,829" size="100,100">(text-colour:#a5d8ff)[-警局內-]
 看著一個青少年前來自首殺了人還極其冷靜，警察難以置信。
 「你為什麼這麼做？你的動機是什麼？」一個警察打破了寂靜，其他警察還在震驚中無法緩過來。
 「我也不知道，再次醒來就變成這樣了」羅寒岳聳聳肩，(text-colour:#868e96)[『我也想知道這到底是什麼回事。』]
 同時間，「欸(link-repeat:&#39;焱&#39;)[(open-url:&#39;http://139.162.74.22/mediawiki/index.php/%E7%84%B1&#39;)]，我現在需要你的幫助，快來控制室，我們讓警察看看不同人格的對話」羅寒岳用心電感應召喚體內的另一人格。
 「那你知道你接下來要面對什麼嗎？」警察提問。
-「嗯，但我未成年，會被減刑，而且…」說到一半，「他誰啊，現在是什麼情況，叫我幹嘛，什麼減刑？你犯罪了！？」羅寒岳的語氣變的急促且粗暴，與方才冷靜沉著的人截然不同。
+「嗯，但我未成年，會被減刑，而且…」說到一半，「他誰啊，現在是什麼情況，叫恁爸幹嘛，什麼減刑？你犯罪了！？」羅寒岳的語氣變的急促且粗暴，與方才冷靜沉著的人截然不同。
 
 
 [[繼續-&gt;收留(理性)2]]</tw-passagedata><tw-passagedata pid="8" name="姑姑1" tags="" position="500,1214" size="100,100">在羅寒岳的記憶裡，姑姑並不常和父親往來，看起來感情不是很好，但每次見到姑姑時，姑姑都會準備禮物給他，也會帶他去吃美食，因此即使相處時間短，羅寒岳還是喜歡姑姑的。
@@ -72,7 +72,7 @@
 [[繼續-&gt;姑姑2]]
 (set: $relation to &quot;aunt&quot;)
 (set: $relative to &quot;姑姑&quot;)</tw-passagedata><tw-passagedata pid="9" name="舅舅1" tags="" position="701,1214" size="100,100">在羅寒岳的記憶裡，舅舅很疼他，常說他長得像媽媽，經常和他說媽媽的故事，因為父親鮮少和他提起媽媽的事情，所以羅寒岳可以說是完全透過舅舅的描述認識媽媽。
-「那他什麼時候會來？」羅寒岳難掩興奮，但同時意識到自己犯下的最可能丟了舅舅對自己的疼愛，心情又沉到谷底。
+「那他什麼時候會來？」羅寒岳難掩興奮，但同時意識到自己犯下的罪可能丟了舅舅對自己的疼愛，心情又沉到谷底。
 「應該快到了，他剛剛在電話裡說…」警察的話還沒說完，就看到一個男人急匆匆地踏進警局。
 (link-repeat:&#39;周思齊&#39;)[(open-url:&#39;http://139.162.74.22/mediawiki/index.php/%E5%91%A8%E6%80%9D%E9%BD%8A&#39;)]在電話裡聽說了整件事的始末，還在開會的他匆忙離開，因為對他來說，沒有什麼比羅寒岳更重要了。
 「岳岳！」，焦急地跑到羅寒岳面前，滿臉擔心地看著他。
@@ -81,7 +81,7 @@
 
 [[繼續-&gt;舅舅2]]
 (set: $relation to &quot;uncle&quot;)
-(set: $relative to &quot;舅舅&quot;)</tw-passagedata><tw-passagedata pid="10" name="收留(暴力)" tags="Branch" position="701,825" size="100,100">(text-colour:#a5d8ff)[-警局內-]
+(set: $relative to &quot;舅舅&quot;)</tw-passagedata><tw-passagedata pid="10" name="收留(暴力)" tags="" position="701,825" size="100,100">(text-colour:#a5d8ff)[-警局內-]
 「現在你是最大的犯罪嫌疑人，那個時間你在做什麼呢？有人跟你在一起嗎？平常跟父親關係好嗎？」警察問了一連串的問題。
 「我在家，沒幹嘛，就是跟爸爸一起的，平常關係非常差，他就是我殺的，你們不用大費周章查了」羅寒岳承認地非常乾脆。
 「你為什麼這麼做？你的動機是什麼？」一個警察打破了寂靜，其他警察還在震驚中無法緩過來。
@@ -126,11 +126,11 @@
 「數習的第二章全部」張祐寧回道。
 當羅寒岳好不容易找到數習，正要開始寫時卻發現已經完成，但字卻不像他寫的。
 
-(text-colour:#868e96)[『這算是不幸中的大幸吧，不知道要寫卻寫完了』於是羅寒岳起身往講台走去。]
+(text-colour:#868e96)[『這算是不幸中的大幸吧，不知道要寫卻寫完了』]於是羅寒岳起身往講台走去。
 
 
 [[繼續-&gt;上學3]]</tw-passagedata><tw-passagedata pid="17" name="上學3" tags="" position="602,2015" size="100,100">「Wow 這是誰啊？這不是前天說我當數學小老師有什麼好囂張的那位嗎？」小老師一臉挑釁說道。
-「我沒說過那樣的話，我只是要交作業而已。」羅寒岳不解，『今天莫名其妙的事也太多了』
+「我沒說過那樣的話，我只是要交作業而已。」羅寒岳不解，(text-colour:#868e96)[『今天莫名其妙的事也太多了』]
 「呦！瞧這話說的，我就應該讓你知道數學小老師的權力，即便你現在給我，我也不會幫你拿去給老師」小老師說道。
 「那我自己拿去交吧」羅寒岳無奈道。
 「自己交跟遲交沒有差別呦！」小老師語氣高昂道。
@@ -217,7 +217,7 @@
 映入眼簾的，是一個身形相當高的男人，但卻無人認識他。
 
 [[繼續-&gt;不接受治療2]]</tw-passagedata><tw-passagedata pid="27" name="治療與否1(舅舅)" tags="" position="693,2752" size="100,100">(text-colour:#a5d8ff)[-現實世界-]
-回到現實，躺在床上的羅寒岳回想剛剛和其他人格的對話，聯想到今天在學校的一連串事件，(text-colour:#a5d8ff)[『看來我這段時間有去上學呢，只不過是他們替我去的』]
+回到現實，躺在床上的羅寒岳回想剛剛和其他人格的對話，聯想到今天在學校的一連串事件，(text-colour:#868e96)[『看來我這段時間有去上學呢，只不過是他們替我去的』]
 突然腦海裡浮現(link-repeat:&#39;張祐寧&#39;)[(open-url:&#39;http://139.162.74.22/mediawiki/index.php/%E5%BC%B5%E7%A5%90%E5%AF%A7&#39;)]的建議，(text-colour:#868e96)[『如果我體內有其他人格，不就意味著我生病了嗎？那要去看醫生嗎？』]羅寒岳思考著。
 (text-colour:#868e96)[『但不去的話也不知道自己到底生的是什麼病，還是去看醫生好了』]羅寒岳決定了。
 「可是我不知道要看什麼科的醫生啊」羅寒岳猛然想起，「那只能跟舅舅說了。」
@@ -395,7 +395,7 @@
 洗完澡後，羅寒岳便沉沉地睡去了。
 
 (text-colour:#a5d8ff)[-意識空間-]
-(text-colour:#868e96)[『我怎麼又醒來了，看來這裡又是意識空間了』羅寒岳環顧周圍。
+(text-colour:#868e96)[『我怎麼又醒來了，看來這裡又是意識空間了』]羅寒岳環顧周圍。
 羅寒岳每次醒來時都在控制室，「大概是因為身體睡著了，所以我才會在意識空間醒來吧」，他自言自語著，一邊準備起身出控制室。
 
 [[繼續-&gt;接受治療7]]</tw-passagedata><tw-passagedata pid="48" name="接受治療2" tags="" position="495,3517" size="100,100">「他來了他來了」，一聽就知道是岳岳的聲音。
@@ -584,7 +584,7 @@
 儘管內心早已推斷出答案，他仍希望焱能推翻他的猜測。
 焱抿了抿唇，罕見地露出了擔憂的眼神對著寒岳，這一瞬間，空氣彷彿被凍結了。
 
-「羅辰旭，你的老爹。」
+「羅辰旭，你的老爸。」
 
 [[繼續-&gt;情報1]]</tw-passagedata><tw-passagedata pid="71" name="代價2" tags="" position="495,6465" size="100,100">(text-colour:(hsl:160,0.8462,0.8725,0.75))[「幫我去簽書會。」
 「簽、呃，蛤？」
@@ -628,7 +628,7 @@
 聽到關鍵字，羅寒岳豎直了背脊，慎重地點點頭。
 「我想想，那時應該是在書房之類的地方...」永儒摸摸下巴，試著回憶起當時的事。
 (text-colour:#868e96)[『應該就是爸爸的書房吧？』]羅寒岳心想，(text-colour:#868e96)[『他從來不讓我進入的地方。』]
-「腳邊倒著一具屍體，思索著應該是與我脫不了關係，於是我便開始計劃要如何解決這件事。」
+「腳邊倒著一具屍體，手上又都是鮮血，思索著應該是與我脫不了關係，於是我便開始計劃要如何解決這件事。」
 
 [[繼續-&gt;代價7_1]]</tw-passagedata><tw-passagedata pid="77" name="現場1" tags="" position="595,7366" size="100,100">(set: $place to true)
 (text-colour:#a5d8ff)[-現實世界羅家-]
@@ -830,7 +830,7 @@
 「喔喔，沒關係，謝謝舅舅。」
 
 [[繼續-&gt;親戚_舅舅4]]</tw-passagedata><tw-passagedata pid="101" name="親戚_舅舅4" tags="autobranch" position="996,7965" size="100,100">「還有什麼問題都可以問舅舅，舅舅會盡力幫你的。」
-『要跟他說嗎？表弟的事？』羅寒岳猶豫著。
+(text-colour:#868e96)[『要跟他說嗎？表弟的事？』]羅寒岳猶豫著。
 「呃...周昱澄...」
 「嗯？他怎麼了？不會又對你沒禮貌了吧？這小子真是的...」
 「不是的，他沒有欺負我。」羅寒岳趕緊打斷對方的話，「我只是覺得周昱澄很懂事，又很聰明，覺得他很厲害。」
@@ -854,17 +854,17 @@
 
 共感、同步、操控意識空間...等，筆記本內詳述了作者遇到的狀況，巧合的是，這些情況都跟羅辰旭——或者該說羅寒岳——的狀況類似。
 
-(text-colour:#868e96)[『怎麼會有這麼巧的事？』]難掩臉上的驚訝，羅辰旭繼續翻閱。
+(text-colour:#868e96)[『怎麼會有這麼巧的事？』]難掩臉上的驚訝，他繼續翻閱。
 
 //「接著，要來講講人格消失的部分了...」//
 
 [[繼續-&gt;計畫4]]</tw-passagedata><tw-passagedata pid="104" name="計畫4" tags="" position="896,9616" size="100,100">(text-colour:#a5d8ff)[-意識空間羅辰旭房間-]
 回到自己房間，羅辰旭仔細思考先前發現的那本筆記。
-(text-colour:#868e96)[『所以人格是有辦法消失的嗎？』]羅辰旭坐到書桌前，將那本筆記放在桌上，並拿出紙筆，(text-colour:#868e96)[『要是那本書說的是真的，那麼...』]
+(text-colour:#868e96)[『所以人格是有辦法消失的嗎？』]他坐到書桌前，將那本筆記放在桌上，並拿出紙筆，(text-colour:#868e96)[『要是那本書說的是真的，那麼...』]
 
 「我還有機會能擁有身體。」
 
-羅辰旭開始在紙上振筆疾書。
+他開始在紙上振筆疾書。
 
 [[繼續-&gt;房間1]]</tw-passagedata><tw-passagedata pid="105" name="房間1" tags="Branch" position="896,9766" size="100,100">(text-colour:#a5d8ff)[-意識空間控制室-]
 (text-colour:#868e96)[『嗯？又來到這裡了。』]羅寒岳睜開眼睛，看著熟悉的天花板，他知道自己身處在意識空間內。
@@ -1196,7 +1196,7 @@
 開關的部分受到撞擊而損壞，裡頭的照片隨著懷錶在空中晃呀晃的。
 
 [[繼續-&gt;毀滅8]]</tw-passagedata><tw-passagedata pid="145" name="毀滅8" tags="" position="821,12317" size="100,100">(text-colour:(hsl:160,0.8462,0.8725,0.75))[「吶吶，你看這個，跟你好像哈哈。」跟他同組的女生向他搭話。
-「你在暗指我長得很醜嗎？」看著(link-repeat:&#39;周思語&#39;)[(open-url:&#39;http://139.162.74.22/mediawiki/index.php/%E5%91%A8%E6%80%9D%E8%AA%9E&#39;)指著的歌劇魅影，羅辰旭感覺被冒犯了。
+「你在暗指我長得很醜嗎？」看著](link-repeat:&#39;周思語&#39;)[(open-url:&#39;http://139.162.74.22/mediawiki/index.php/%E5%91%A8%E6%80%9D%E8%AA%9E&#39;)](text-colour:(hsl:160,0.8462,0.8725,0.75))[指著的歌劇魅影，羅辰旭感覺被冒犯了。
 「不是那個啦！我的意思是藏在那面具底下，脆弱又澎拜的情感。」
 「怎麼說？」
 這天是他們第一次共事，周思語和他聊了魅影和他之間的共同點。
@@ -1381,7 +1381,7 @@ Tony Stark 的全息投影離開座位，注視著他的女兒。
 
 [[繼續-&gt;成長7]]</tw-passagedata><tw-passagedata pid="162" name="成長7" tags="" position="1121,12015" size="100,100">「該不會！？那本日記？！」
 「哦～日記本啊，還真懷念。」煙嵐笑著回應，「還真懷念呢，那時我們還會一人操控一隻手來進行對話呢！」
-『真的是他。』
+(text-colour:#868e96)[『真的是他。』]
 「可惜之後就沒這麼做了。」
 「你就是&quot;Marc&quot;？」他想起了&quot;Save Steven Grant&quot;這個計畫。
 聽到這句話，煙嵐垂下眼眸，「對。」
@@ -1567,11 +1567,11 @@ Tony Stark 的全息投影離開座位，注視著他的女兒。
 
 [[繼續-&gt;生存11]]</tw-passagedata><tw-passagedata pid="186" name="毀滅3_1" tags="" position="820,11565" size="100,100">「這樣好了。」羅辰旭繼續壓制住對方，「既然你這麼想念你父親，不如我讓你們團聚好了。」
 他抓起羅寒岳的(link-repeat:&#39;項鍊&#39;)[(open-url:&#39;http://139.162.74.22/mediawiki/index.php/%E9%A0%85%E9%8D%8A&#39;)]。
-『鑰匙！』羅寒岳費盡全力地試圖掙脫對方的箝制，卻失敗了。
+(text-colour:#868e96)[『鑰匙！』]羅寒岳費盡全力地試圖掙脫對方的箝制，卻失敗了。
 「快放開我！」
 「喔？這麼快就猜中了？」見到羅寒岳激動的反應，羅辰旭加大力道，「看來我的運氣還挺好的。」
 
-「那就毀了它吧。對了，到時記得幫我跟你父親問好。」羅辰旭語帶嘲諷地說著，「告訴他他是個糟糕的父親，活該被兒子刺死。」
+「那就毀了它吧。對了，到時記得幫我跟你父親問好。」羅辰旭語帶嘲諷地說著，「告訴他他是個糟糕的父親，活該被兒子殺死。」
 
 [[繼續-&gt;毀滅4]]</tw-passagedata><tw-passagedata pid="187" name="毀滅10_1" tags="" position="972,12614" size="100,100">「是岳岳沒見過的人。」
 「你是誰？」焱警戒的看著煙嵐。
@@ -1588,7 +1588,7 @@ Tony Stark 的全息投影離開座位，注視著他的女兒。
 
 [[繼續-&gt;成長5]]</tw-passagedata><tw-passagedata pid="189" name="開頭1" tags="開頭" position="599,183" size="100,100">(dialog:&quot;特殊文字格式解說:
 //斜體代表書信內容；//
-(text-colour:#868e96)[灰色代表角色的內心話；]
+(text-colour:#868e96)[『灰色雙引號代表角色的內心話；』]
 (text-colour:(hsl:160,0.8462,0.8725,0.75))[綠色代表回憶；]
 (text-colour:#a5d8ff)[淺藍色代表地點；]
 (text-colour:(hsl:339,0.7585,0.5941,0.65))[暗紅色代表電視內容；]
@@ -1632,7 +1632,7 @@ Tony Stark 的全息投影離開座位，注視著他的女兒。
 「姑姑，哥」羅寒岳禮貌性地打聲招呼。
 「嗯」(link-repeat:&#39;凌宏閔&#39;)[(open-url:&#39;http://139.162.74.22/mediawiki/index.php/%E5%87%8C%E5%AE%8F%E9%96%94&#39;)]輕輕點頭。
 「從今天起，岳岳就住在我們家囉，你們要互相照顧喔！」羅茵不想再刺激寒岳，也就沒再提及羅辰旭的事。
-羅寒岳點了點頭便埋頭吃飯，「爸爸去哪裡了？他終於要拋棄我了嗎？」他心想。
+羅寒岳點了點頭便埋頭吃飯，(text-colour:#868e96)[『爸爸去哪裡了？他終於要拋棄我了嗎？』]他心想。
 腦海裡的思緒極度混亂，羅寒岳決定這幾天都不去上學，讓自己休息一會兒。
 
 [[繼續-&gt;上學1]]</tw-passagedata><tw-passagedata pid="194" name="上學4" tags="" position="602,2146" size="100,100">這時，張祐寧叫住羅寒岳，「我們出去說一下話。」
@@ -1649,9 +1649,7 @@ Tony Stark 的全息投影離開座位，注視著他的女兒。
 「我了解了，謝謝提醒，那我要回控制室了，掰掰」羅寒岳向他道別，(text-colour:#868e96)[『這人並不如他長得那般恐怖，人也不壞。』]
 
 
-(if:$relation is &quot;aunt&quot;)[[[繼續-&gt;治療與否1(姑姑)]]](else-if:$relation is &quot;uncle&quot;)[[[繼續-&gt;治療與否1(舅舅)]]]
-
-http://139.162.74.22/mediawiki/index.php/%E5%A4%B1%E5%8E%BB%E6%88%BF%E9%96%93%E9%91%B0%E5%8C%99</tw-passagedata><tw-passagedata pid="196" name="治療與否3(姑姑)" tags="" position="504,2997" size="100,100">(text-colour:#868e96)[『是人格分裂嗎？因為最近的事讓他衝擊太大？』]羅茵猜想，那應該要預約心理諮商。
+(if:$relation is &quot;aunt&quot;)[[[繼續-&gt;治療與否1(姑姑)]]](else-if:$relation is &quot;uncle&quot;)[[[繼續-&gt;治療與否1(舅舅)]]]</tw-passagedata><tw-passagedata pid="196" name="治療與否3(姑姑)" tags="" position="504,2997" size="100,100">(text-colour:#868e96)[『是人格分裂嗎？因為最近的事讓他衝擊太大？』]羅茵猜想，那應該要預約心理諮商。
 羅茵對心理諮商並不陌生，她也曾尋求過心理諮商的幫助，且當初為了讓自己從過往不堪的記憶解放，她曾看了大量的心理學相關書籍，因此她很快理解羅寒岳描述的狀況。
 「啊，原來啊！姑姑知道了，那我們先預約看醫生的時間，好不好？」羅茵溫和地和羅寒岳說道。
 「好，但是我這樣要看哪一種醫生啊，姑姑？」羅寒岳忍不住好奇。
