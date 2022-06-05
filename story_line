@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T19:15:08.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="1mZjvhInziJWM6SYSVpC" version="19.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-05T19:25:50.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="E6ziChWgK_1WTGiY3TMb" version="19.0.0" type="github" pages="3">
   <diagram id="XwRBtH1nLuFWeLdeQyhN" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,11 +211,61 @@
         <mxCell id="OXfPAtXIXJ7wJr1BG4ER-5" value="由於不接受繼續治療，不明人格&lt;br&gt;便常常出現並充滿攻擊性，使其&lt;br&gt;他人格一一消失。&lt;br&gt;最後，不明人格讓羅寒岳的人格&lt;br&gt;也消失，佔據了他的身體。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="OXfPAtXIXJ7wJr1BG4ER-4">
           <mxGeometry x="10" y="40" width="180" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="1E60ATBeNTcZov07c5m7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF8000;" edge="1" parent="1" source="OXfPAtXIXJ7wJr1BG4ER-9" target="OXfPAtXIXJ7wJr1BG4ER-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OXfPAtXIXJ7wJr1BG4ER-9" value="發覺" style="swimlane;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="320" y="600" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OXfPAtXIXJ7wJr1BG4ER-10" value="看到和父親相似的羅辰旭，羅寒&lt;br&gt;岳想起了零碎的記憶片段。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="OXfPAtXIXJ7wJr1BG4ER-9">
           <mxGeometry x="10" y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1E60ATBeNTcZov07c5m7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF8000;" edge="1" parent="1" source="OXfPAtXIXJ7wJr1BG4ER-14" target="1E60ATBeNTcZov07c5m7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1E60ATBeNTcZov07c5m7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF8000;" edge="1" parent="1" source="OXfPAtXIXJ7wJr1BG4ER-14" target="1E60ATBeNTcZov07c5m7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXfPAtXIXJ7wJr1BG4ER-14" value="調查1~4" style="swimlane;startSize=23;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OXfPAtXIXJ7wJr1BG4ER-15" value="岳岳將羅寒岳的思緒拉回來。&lt;br&gt;為了不讓岳岳擔心，羅寒岳提議&lt;br&gt;到交誼廳吃冰淇淋，順便詢問岳&lt;br&gt;岳關於父親離開的事。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="OXfPAtXIXJ7wJr1BG4ER-14">
+          <mxGeometry x="10" y="30" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OXfPAtXIXJ7wJr1BG4ER-16" value="&lt;font color=&quot;#ff8000&quot;&gt;這裡會自動分支&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="OXfPAtXIXJ7wJr1BG4ER-14">
+          <mxGeometry x="44" y="90" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1E60ATBeNTcZov07c5m7-2" value="調查_永儒1~8" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="120" y="880" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1E60ATBeNTcZov07c5m7-3" value="焱也來到交誼廳，他們一起看了&lt;br&gt;電影，結束後羅寒岳向焱詢問當&lt;br&gt;天發生的事，焱說永儒比較清楚&lt;br&gt;，於是羅寒岳轉而詢問永儒。&lt;br&gt;不過，永儒卻提出了交換條件。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1E60ATBeNTcZov07c5m7-2">
+          <mxGeometry x="10" y="30" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1E60ATBeNTcZov07c5m7-5" value="調查_焱1~7" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="520" y="880" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1E60ATBeNTcZov07c5m7-6" value="永儒來到交誼廳，他們一起看了&lt;br&gt;電影，結束後羅寒岳向永儒詢問&lt;br&gt;當天發生的事，永儒請他去問焱&lt;br&gt;，於是羅寒岳轉而詢問焱。&lt;br&gt;焱直接和他說明了當時的情況。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1E60ATBeNTcZov07c5m7-5">
+          <mxGeometry x="10" y="30" width="180" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4LC2m1qvX4hm6JWB81Su" name="Page-3">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-1" value="調查_永儒1~8" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-2" value="焱也來到交誼廳，他們一起看了&lt;br&gt;電影，結束後羅寒岳向焱詢問當&lt;br&gt;天發生的事，焱說永儒比較清楚&lt;br&gt;，於是羅寒岳轉而詢問永儒。&lt;br&gt;不過，永儒卻提出了交換條件。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-1">
+          <mxGeometry x="10" y="30" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-3" value="調查_焱1~7" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-4" value="永儒來到交誼廳，他們一起看了&lt;br&gt;電影，結束後羅寒岳向永儒詢問&lt;br&gt;當天發生的事，永儒請他去問焱&lt;br&gt;，於是羅寒岳轉而詢問焱。&lt;br&gt;焱直接和他說明了當時的情況。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-3">
+          <mxGeometry x="10" y="30" width="180" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
