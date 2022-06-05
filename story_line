@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T20:43:43.367Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="JPf65TcJ4nn6S_9NohwJ" version="19.0.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-05T20:44:12.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="sLKyNBJ9jFlmb3pFCIRc" version="19.0.0" type="github" pages="5">
   <diagram id="XwRBtH1nLuFWeLdeQyhN" name="Page-1">
     <mxGraphModel dx="3128" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -705,7 +705,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GIlxYf2vZggD6-4l4KXE-27" value="發覺" style="swimlane;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1550" width="410" height="80" as="geometry" />
+          <mxGeometry x="320" y="1550" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GIlxYf2vZggD6-4l4KXE-28" value="看到和父親相似的羅辰旭，羅寒&lt;br&gt;岳想起了零碎的記憶片段。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="GIlxYf2vZggD6-4l4KXE-27">
           <mxGeometry x="10" y="30" width="180" height="30" as="geometry" />
