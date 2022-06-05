@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T19:25:50.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="E6ziChWgK_1WTGiY3TMb" version="19.0.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-05T19:44:23.980Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="JvSTDK50OkrF-jKMwg2L" version="19.0.0" type="github" pages="3">
   <diagram id="XwRBtH1nLuFWeLdeQyhN" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -255,17 +255,134 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF8000;" edge="1" parent="1" source="PZKU4h_nN_WcbPYK-2jK-1" target="PZKU4h_nN_WcbPYK-2jK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PZKU4h_nN_WcbPYK-2jK-1" value="調查_永儒1~8" style="swimlane;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="120" y="40" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="PZKU4h_nN_WcbPYK-2jK-2" value="焱也來到交誼廳，他們一起看了&lt;br&gt;電影，結束後羅寒岳向焱詢問當&lt;br&gt;天發生的事，焱說永儒比較清楚&lt;br&gt;，於是羅寒岳轉而詢問永儒。&lt;br&gt;不過，永儒卻提出了交換條件。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-1">
           <mxGeometry x="10" y="30" width="180" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="PZKU4h_nN_WcbPYK-2jK-3" target="PZKU4h_nN_WcbPYK-2jK-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="300" />
+              <mxPoint x="420" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PZKU4h_nN_WcbPYK-2jK-3" value="調查_焱1~7" style="swimlane;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="520" y="40" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="PZKU4h_nN_WcbPYK-2jK-4" value="永儒來到交誼廳，他們一起看了&lt;br&gt;電影，結束後羅寒岳向永儒詢問&lt;br&gt;當天發生的事，永儒請他去問焱&lt;br&gt;，於是羅寒岳轉而詢問焱。&lt;br&gt;焱直接和他說明了當時的情況。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-3">
           <mxGeometry x="10" y="30" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="PZKU4h_nN_WcbPYK-2jK-5" target="PZKU4h_nN_WcbPYK-2jK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-5" value="代價1~7" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-6" value="羅寒岳完成了永儒的條件，於是&lt;br&gt;永儒向他說明了當時的情況。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-5">
+          <mxGeometry x="10" y="40" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="PZKU4h_nN_WcbPYK-2jK-10" target="PZKU4h_nN_WcbPYK-2jK-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="PZKU4h_nN_WcbPYK-2jK-10" target="PZKU4h_nN_WcbPYK-2jK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-10" value="情報" style="swimlane;startSize=23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-11" value="知道了新的情報，羅寒岳決定繼&lt;br&gt;續調查。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-10">
+          <mxGeometry x="10" y="40" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-12" value="&lt;font color=&quot;#ff0000&quot;&gt;讀者在這邊決定調查的順序&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF8000;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-10">
+          <mxGeometry x="20" y="90" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF8000;" edge="1" parent="1" source="PZKU4h_nN_WcbPYK-2jK-15" target="PZKU4h_nN_WcbPYK-2jK-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF8000;" edge="1" parent="1" source="PZKU4h_nN_WcbPYK-2jK-15" target="PZKU4h_nN_WcbPYK-2jK-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-15" value="現場1~5" style="swimlane;startSize=23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="480" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-16" value="羅寒岳回到案發現場，並在父親&lt;br&gt;的書房內找到了他的出生證明。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-15">
+          <mxGeometry x="10" y="40" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-19" value="&lt;font color=&quot;#ff0000&quot;&gt;讀者在這邊決定是否繼續調查?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF8000;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-15">
+          <mxGeometry x="10" y="90" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF8000;" edge="1" parent="1" source="PZKU4h_nN_WcbPYK-2jK-17" target="PZKU4h_nN_WcbPYK-2jK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF8000;" edge="1" parent="1" source="PZKU4h_nN_WcbPYK-2jK-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="900" />
+              <mxPoint x="420" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-17" value="親戚(姑姑)1~3/親戚(舅舅)1~4" style="swimlane;startSize=23;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-18" value="透過親戚的描述，羅寒岳雖然沒&lt;br&gt;得到新的資訊，卻從親戚身上感&lt;br&gt;受到了對方的關懷與溫暖。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-17">
+          <mxGeometry x="10" y="35" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-22" value="如果還沒跑現場，接現場" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF8000;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-17">
+          <mxGeometry x="25" y="90" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF8000;" edge="1" parent="1" source="PZKU4h_nN_WcbPYK-2jK-24" target="PZKU4h_nN_WcbPYK-2jK-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-24" value="回家" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry y="640" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-25" value="羅寒岳將出生證明帶回家。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-24">
+          <mxGeometry x="20" y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF8000;" edge="1" parent="1" source="PZKU4h_nN_WcbPYK-2jK-26" target="PZKU4h_nN_WcbPYK-2jK-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-26" value="信封1~2" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="240" y="640" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-27" value="羅寒岳發現父親的信，決定將出&lt;br&gt;生證明和信一起帶回家。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-26">
+          <mxGeometry x="10" y="35" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF8000;" edge="1" parent="1" source="PZKU4h_nN_WcbPYK-2jK-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="820" />
+              <mxPoint x="480" y="560" />
+              <mxPoint x="520" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF8000;" edge="1" parent="1" source="PZKU4h_nN_WcbPYK-2jK-30" target="PZKU4h_nN_WcbPYK-2jK-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-30" value="現場6~12" style="swimlane;startSize=23;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="760" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-31" value="羅寒岳在意識空間內找到了出生&lt;br&gt;證明，連帶地回復了當天的記憶&lt;br&gt;，卻對最後的狀況不解。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-30">
+          <mxGeometry x="10" y="35" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-32" value="如果還沒跑親戚，接親戚" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF8000;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-30">
+          <mxGeometry x="25" y="90" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-37" value="計畫1~4" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="320" y="920" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PZKU4h_nN_WcbPYK-2jK-38" value="同一時間，羅辰旭不斷在尋找人&lt;br&gt;格的相關資料，並暗地籌備一個&lt;br&gt;「身體掠奪計畫」。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="PZKU4h_nN_WcbPYK-2jK-37">
+          <mxGeometry x="10" y="50" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
