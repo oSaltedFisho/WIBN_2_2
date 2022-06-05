@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T18:18:26.929Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="edCtdIYYSGY8-XbGIn1S" version="19.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-05T18:27:08.438Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="SfUD4qIo6l-TpLrHPdZ_" version="19.0.0" type="github" pages="2">
   <diagram id="XwRBtH1nLuFWeLdeQyhN" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,6 +124,42 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QCPFBkwhy-maglzlvRnF-1" value="治療與否(姑姑)1~5" style="swimlane;startSize=23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="10" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-2" value="羅寒岳回到現實世界，向姑姑說&lt;br&gt;明自己的狀況。&lt;br&gt;聽完他的敘述後，姑姑帶他去進&lt;br&gt;行心理諮商，諮商師建議他定期&lt;br&gt;回診。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QCPFBkwhy-maglzlvRnF-1">
+          <mxGeometry x="10" y="30" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-3" value="&lt;font color=&quot;#ff0000&quot;&gt;讀者在這邊選擇是否繼續治療?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QCPFBkwhy-maglzlvRnF-1">
+          <mxGeometry x="10" y="120" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-4" value="治療與否(舅舅)1~5" style="swimlane;startSize=23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="10" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-5" value="羅寒岳回到現實世界，向舅舅說&lt;br&gt;明自己的狀況。&lt;br&gt;聽完他的敘述後，舅舅帶他去進&lt;br&gt;行心理諮商，諮商師建議他定期&lt;br&gt;回診。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QCPFBkwhy-maglzlvRnF-4">
+          <mxGeometry x="10" y="30" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-6" value="&lt;font color=&quot;#ff0000&quot;&gt;讀者在這邊選擇是否繼續治療?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QCPFBkwhy-maglzlvRnF-4">
+          <mxGeometry x="10" y="120" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-7" value="接受治療1~5" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-8" value="決定接受治療後，羅寒岳向其他&lt;br&gt;人格說明狀況，希望能了解目前&lt;br&gt;存在多少人格。&lt;br&gt;之後，他們發現了新的人格，和&lt;br&gt;父親十分相似的羅辰旭。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="QCPFBkwhy-maglzlvRnF-7">
+          <mxGeometry x="10" y="30" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-10" value="&lt;font color=&quot;#0000ff&quot;&gt;P.S.後續提到的羅辰旭都是人格&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF8000;" vertex="1" parent="QCPFBkwhy-maglzlvRnF-7">
+          <mxGeometry x="10" y="130" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-11" value="接受治療1~5" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-12" value="決定接受治療後，羅寒岳向其他&lt;br&gt;人格說明狀況，希望能了解目前&lt;br&gt;存在多少人格。&lt;br&gt;之後，他們發現了新的人格，和&lt;br&gt;父親十分相似的羅辰旭。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="QCPFBkwhy-maglzlvRnF-11">
+          <mxGeometry x="10" y="30" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-13" value="&lt;font color=&quot;#0000ff&quot;&gt;P.S.後續提到的羅辰旭都是人格&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF8000;" vertex="1" parent="QCPFBkwhy-maglzlvRnF-11">
+          <mxGeometry x="10" y="130" width="180" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
