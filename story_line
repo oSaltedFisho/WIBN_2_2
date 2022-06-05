@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T18:27:08.438Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="SfUD4qIo6l-TpLrHPdZ_" version="19.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-05T19:15:08.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="1mZjvhInziJWM6SYSVpC" version="19.0.0" type="github" pages="2">
   <diagram id="XwRBtH1nLuFWeLdeQyhN" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,6 +124,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QCPFBkwhy-maglzlvRnF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="QCPFBkwhy-maglzlvRnF-1" target="QCPFBkwhy-maglzlvRnF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="QCPFBkwhy-maglzlvRnF-1" target="QCPFBkwhy-maglzlvRnF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QCPFBkwhy-maglzlvRnF-1" value="治療與否(姑姑)1~5" style="swimlane;startSize=23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="120" y="10" width="200" height="150" as="geometry" />
         </mxCell>
@@ -132,6 +138,17 @@
         </mxCell>
         <mxCell id="QCPFBkwhy-maglzlvRnF-3" value="&lt;font color=&quot;#ff0000&quot;&gt;讀者在這邊選擇是否繼續治療?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QCPFBkwhy-maglzlvRnF-1">
           <mxGeometry x="10" y="120" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="QCPFBkwhy-maglzlvRnF-4" target="QCPFBkwhy-maglzlvRnF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="QCPFBkwhy-maglzlvRnF-4" target="QCPFBkwhy-maglzlvRnF-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="170" />
+              <mxPoint x="270" y="170" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QCPFBkwhy-maglzlvRnF-4" value="治療與否(舅舅)1~5" style="swimlane;startSize=23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="520" y="10" width="200" height="150" as="geometry" />
@@ -142,6 +159,14 @@
         <mxCell id="QCPFBkwhy-maglzlvRnF-6" value="&lt;font color=&quot;#ff0000&quot;&gt;讀者在這邊選擇是否繼續治療?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="QCPFBkwhy-maglzlvRnF-4">
           <mxGeometry x="10" y="120" width="180" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="OXfPAtXIXJ7wJr1BG4ER-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="QCPFBkwhy-maglzlvRnF-7" target="OXfPAtXIXJ7wJr1BG4ER-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="580" />
+              <mxPoint x="420" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QCPFBkwhy-maglzlvRnF-7" value="接受治療1~5" style="swimlane;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="120" y="200" width="200" height="160" as="geometry" />
         </mxCell>
@@ -151,14 +176,46 @@
         <mxCell id="QCPFBkwhy-maglzlvRnF-10" value="&lt;font color=&quot;#0000ff&quot;&gt;P.S.後續提到的羅辰旭都是人格&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF8000;" vertex="1" parent="QCPFBkwhy-maglzlvRnF-7">
           <mxGeometry x="10" y="130" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="QCPFBkwhy-maglzlvRnF-11" value="接受治療1~5" style="swimlane;startSize=23;" vertex="1" parent="1">
+        <mxCell id="OXfPAtXIXJ7wJr1BG4ER-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="QCPFBkwhy-maglzlvRnF-11" target="OXfPAtXIXJ7wJr1BG4ER-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OXfPAtXIXJ7wJr1BG4ER-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="QCPFBkwhy-maglzlvRnF-11" target="OXfPAtXIXJ7wJr1BG4ER-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-11" value="不接受治療1~5" style="swimlane;startSize=23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="520" y="200" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="QCPFBkwhy-maglzlvRnF-12" value="決定接受治療後，羅寒岳向其他&lt;br&gt;人格說明狀況，希望能了解目前&lt;br&gt;存在多少人格。&lt;br&gt;之後，他們發現了新的人格，和&lt;br&gt;父親十分相似的羅辰旭。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="QCPFBkwhy-maglzlvRnF-11">
+        <mxCell id="QCPFBkwhy-maglzlvRnF-12" value="某天，岳岳遭到不明人格攻擊，&lt;br&gt;羅寒岳因此知道還有其他人格存&lt;br&gt;在，在尋求其他人格的意見後，&lt;br&gt;猶豫要不要繼續治療。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="QCPFBkwhy-maglzlvRnF-11">
+          <mxGeometry x="10" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QCPFBkwhy-maglzlvRnF-13" value="&lt;font color=&quot;#ff0000&quot;&gt;讀者在這邊選擇是否繼續治療?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF8000;" vertex="1" parent="QCPFBkwhy-maglzlvRnF-11">
+          <mxGeometry x="10" y="130" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OXfPAtXIXJ7wJr1BG4ER-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="OXfPAtXIXJ7wJr1BG4ER-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OXfPAtXIXJ7wJr1BG4ER-1" value="接受治療6~11" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="OXfPAtXIXJ7wJr1BG4ER-2" value="決定接受治療後，羅寒岳找到了&lt;br&gt;攻擊岳岳的人格，發現是和父親&lt;br&gt;十分相似的羅辰旭。&lt;br&gt;羅辰旭向岳岳道歉後，被焱警告&lt;br&gt;不能再攻擊其他人格。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="OXfPAtXIXJ7wJr1BG4ER-1">
           <mxGeometry x="10" y="30" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QCPFBkwhy-maglzlvRnF-13" value="&lt;font color=&quot;#0000ff&quot;&gt;P.S.後續提到的羅辰旭都是人格&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF8000;" vertex="1" parent="QCPFBkwhy-maglzlvRnF-11">
+        <mxCell id="OXfPAtXIXJ7wJr1BG4ER-3" value="&lt;font color=&quot;#0000ff&quot;&gt;P.S.後續提到的羅辰旭都是人格&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF8000;" vertex="1" parent="OXfPAtXIXJ7wJr1BG4ER-1">
           <mxGeometry x="10" y="130" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OXfPAtXIXJ7wJr1BG4ER-4" value="結局1_毫無察覺的離開" style="swimlane;startSize=23;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="400" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OXfPAtXIXJ7wJr1BG4ER-5" value="由於不接受繼續治療，不明人格&lt;br&gt;便常常出現並充滿攻擊性，使其&lt;br&gt;他人格一一消失。&lt;br&gt;最後，不明人格讓羅寒岳的人格&lt;br&gt;也消失，佔據了他的身體。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="OXfPAtXIXJ7wJr1BG4ER-4">
+          <mxGeometry x="10" y="40" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OXfPAtXIXJ7wJr1BG4ER-9" value="發覺" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="320" y="600" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OXfPAtXIXJ7wJr1BG4ER-10" value="看到和父親相似的羅辰旭，羅寒&lt;br&gt;岳想起了零碎的記憶片段。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="OXfPAtXIXJ7wJr1BG4ER-9">
+          <mxGeometry x="10" y="30" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
