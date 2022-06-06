@@ -17,7 +17,7 @@ https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1255619
 https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1145481232&color=%23ff5500&auto_play=true&visual=true
 
 第四結局音樂<br>
-罪人_G5SH<br>
+罪人_G5SH:<br>
 https://www.youtube.com/embed/ijk6mJW4w4c?controls=0&autoplay=true
 
 第五結局音樂<br>
