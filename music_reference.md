@@ -1,4 +1,4 @@
-##故事引用的音樂
+## 故事引用的音樂
 
 公主徹夜未眠: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/62203885&color=%23ff5500&auto_play=true&visual=true
 
