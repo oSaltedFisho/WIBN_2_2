@@ -18,7 +18,7 @@ https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1145481
 
 第四結局音樂<br>
 罪人_G5SH<br>
-https://www.youtube.com/embed/ijk6mJW4w4c?controls=0&autoplay=true" title="YouTube video player
+https://www.youtube.com/embed/ijk6mJW4w4c?controls=0&autoplay=true
 
 第五結局音樂<br>
 接著_麋先生:<br>
