@@ -19,6 +19,9 @@ https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1145481
 第四結局音樂<br>
 罪人_G5SH:<br>
 https://www.youtube.com/embed/ijk6mJW4w4c?controls=0&autoplay=true
+<br>
+6/23更，因為發現音樂播放有問題，於是改成 G5SH 的 鯨魚:<br>
+https://soundcloud.com/g5sh/whale?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
 
 第五結局音樂<br>
 接著_麋先生:<br>
